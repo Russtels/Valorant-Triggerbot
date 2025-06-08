@@ -14,7 +14,14 @@ includelib shlwapi.lib
     EXTERN cfg : CONFIG
     screen_data      dd 0
     pixel_count      dd 0
-    msg1             db "ON BETA", 0AH, 0  
+    msg1             db " ____               _____     _                        __     ___   _____ ",0AH
+                     db "|  _ \ _   _ ___ __|_   _| __(_) __ _  __ _  ___ _ __  \ \   / / | |___ / ",0AH
+                     db "| |_) | | | / __/ __|| || '__| |/ _` |/ _` |/ _ \ '__|  \ \ / /| |   |_ \ ",0AH
+                     db "|  _ <| |_| \__ \__ \| || |  | | (_| | (_| |  __/ |      \ V / | |_ ___) |",0AH
+                     db "|_| \_\\__,_|___/___/|_||_|  |_|\__, |\__, |\___|_|       \_/  |_(_)____/ ",0AH
+                     db "                                |___/ |___/                               ",0AH
+                     db "                              By russtels                                 ",0AH
+                     db "              https://discord.gg/T5qzJprrnA                               ",0AH, 0 
     error_msg1       db "Error: get_cfg failed. Make sure config.ini is in the same directory as main.exe and includes the correct values", 0AH, 0
     error_msg2       db "Error: get_screenshot failed.", 0AH, 0 
 

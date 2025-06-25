@@ -9,7 +9,6 @@
 
 Un triggerbot para Valorant escrito en puro lenguaje ensamblador (MASM), diseñado para ofrecer el **máximo rendimiento posible** y una **huella de memoria casi inexistente**. Este proyecto es un ejercicio de programación a bajo nivel que interactúa directamente con la API de Windows para lograr su objetivo sin dependencias ni librerías externas.
 
-*(Aquí puedes insertar un GIF demostrando el programa en acción)*
 
 ---
 
